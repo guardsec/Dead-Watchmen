@@ -32,6 +32,9 @@ class DeadWatchmen():
  Created by {__authors__}
  Version: {__version__} 
  """.format(__authors__=__authors__, __version__=__version__))
+        
+if os.geteuid() != 0:
+    exit(Fore.WHITE + u"please run me as root")
 
 if __name__ == '__main__':
     watchmen = DeadWatchmen()
