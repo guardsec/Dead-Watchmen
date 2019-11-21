@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 #i honestly dont have a fucking clue what im doing
 
 from os import system as cmd
