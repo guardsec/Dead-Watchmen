@@ -6,7 +6,7 @@ import colorama
 import time
 import os
 import src
-from src.menu import *
+
 
 __authors__ = u'"Tibthink, Faded-Atlas"'
 __version__ = '0.1'
@@ -34,6 +34,6 @@ if os.geteuid() != 0:
     exit(Fore.RED + u"please run me as root")
     
 print(logo)
-mainMenu()
+src.menu.mainMenu()
 
 

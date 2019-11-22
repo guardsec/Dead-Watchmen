@@ -1,3 +1,3 @@
 import os
 
-from mainMenu import *
+from .mainMenu import *

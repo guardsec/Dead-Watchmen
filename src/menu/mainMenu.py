@@ -1,7 +1,7 @@
 from colorama import Fore, Style
 import colorama
 
-def menu ():
+def __init__ (self):
     choice ='0'
     while choice =='0':
         print(Fore.WHITE + u"""
