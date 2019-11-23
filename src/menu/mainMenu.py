@@ -1,7 +1,13 @@
+from os import system as cmd
 from colorama import Fore, Style
+import os
 import colorama
+
+
+
 class Menu1:
     def __init__ (self):
+        
         choice ='0'
         while choice =='0':
             print(Fore.WHITE + u"""
@@ -19,12 +25,11 @@ class Menu1:
             elif choice == "3":
                 print("Do Something 3")
             elif choice == "2":
-                print("Do Something 2")
+                cmd("git clone --depth=1 https://github.com/TIBTHINK/Dead-Watchman.git")
             elif choice == "1":
                 print("Do Something 1")
             
             else:
                 print("I don't understand your choice.")
         
-
 
