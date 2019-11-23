@@ -1,5 +1,4 @@
 from os import system as cmd
-from argparse import ArgumentParser
 from time import sleep
 from colorama import Fore, Style
 import colorama

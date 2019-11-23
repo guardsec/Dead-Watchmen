@@ -11,11 +11,12 @@ class Menu1:
         choice ='0'
         while choice =='0':
             print(Fore.WHITE + u"""
-            Main Choice: Choose 1 of 4 choices
-            1.begin
-            2.Check for updates
-            3.TrAiN)
-            4.exit""")
+Main Choice: Choose 1 of 4 choices
+1.begin
+2.Check for updates
+3.TrAiN)
+4.exit
+            """)
 
             choice = input ("Please make a choice: ")
 
@@ -25,11 +26,18 @@ class Menu1:
             elif choice == "3":
                 print("Do Something 3")
             elif choice == "2":
-                cmd("git clone --depth=1 https://github.com/TIBTHINK/Dead-Watchman.git")
+                print("im working on it")
+                #cmd("git clone --depth=1 https://github.com/TIBTHINK/Dead-Watchman.git")
             elif choice == "1":
-                print("Do Something 1")
+                questions()
             
             else:
                 print("I don't understand your choice.")
         
-
+class questions:
+    def __init__(self):
+        Fname = input("First name: ")
+        Lname = input("Last name: ")
+        Age = input(int("how old are they: "))
+        City = input("city that they live in: ")
+        
