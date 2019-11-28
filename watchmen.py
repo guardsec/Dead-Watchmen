@@ -33,6 +33,6 @@ if os.geteuid() != 0:
     exit(Fore.RED + u"please run me as root")
     
 print(logo)
-src.menu.Menu1()
+src.menu.Menu()
 
 

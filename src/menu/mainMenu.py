@@ -5,7 +5,7 @@ import colorama
 
 
 
-class Menu1:
+class Menu:
     def __init__ (self):
         
         choice ='0'
