@@ -14,7 +14,7 @@ class Menu:
 Main Choice: Choose 1 of 4 choices
 1.begin
 2.Check for updates
-3.TrAiN)
+3.TrAiN
 4.exit
             """)
 
