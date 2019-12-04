@@ -1,2 +1,2 @@
 from .whitepages import *
-from .spider import *
+from .var.var import aggrement

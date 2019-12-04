@@ -13,7 +13,7 @@ class boot:
     def load_animtion(): 
   
         # String to be displayed when the application is loading 
-        load_str = "Starting DeadWatch Men"
+        load_str = "starting dead watchmen"
         ls_len = len(load_str) 
 
         animation = "|/-\\"
@@ -52,11 +52,9 @@ class boot:
         # for linux / Mac OS 
         else: 
             os.system("clear") 
-    
-        # Driver program 
-        
-             
-        
+
+        os.system("clear")
+        time.sleep(2)
            
         s = (Fore.RED + u"""
 
@@ -76,6 +74,7 @@ Created by {__authors__}
 Version: {__version__} 
             """.format(__authors__=__authors__, __version__=__version__))
         sys.stdout.write(str(s))
+        
 
 
 

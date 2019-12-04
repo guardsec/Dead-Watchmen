@@ -11,7 +11,6 @@ class Menu:
         choice ='0'
         while choice =='0':
             print(Fore.WHITE + u"""
-Main Choice: Choose 1 of 4 choices
 1.begin
 2.Check for updates
 3.TrAiN
