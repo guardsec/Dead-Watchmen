@@ -3,7 +3,7 @@ from colorama import Fore, Style
 
 class aggrement:
     def __init__(self):
-            print("""\nDead Watchmen is designed purely
+            print(Fore.LIGHTCYAN_EX + u"""\nDead Watchmen is designed purely
 for good and not evil. If you are planning on 
 using this tool for malicious purposes that are 
 not authorized by the company you are performing 
