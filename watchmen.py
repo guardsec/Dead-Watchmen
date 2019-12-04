@@ -25,9 +25,9 @@ if not os.path.isfile("src/agreement.txt"):
     else:
        exit("Welp have a good day, \n come back when you want to play fair")
 print(Fore.WHITE)
-menu.boot.load_animtion()
-    
 
+
+menu.boot.load_animtion()
 menu.Menu()
 
 
