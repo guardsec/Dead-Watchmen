@@ -1,1 +1,1 @@
-from .var import aggrement
+from .text import *
