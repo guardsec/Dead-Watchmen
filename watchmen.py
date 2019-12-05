@@ -49,3 +49,4 @@ while choice =='0':
         core.whitepages.info()        
     else:
         print("I don't understand your choice.")
+        return
