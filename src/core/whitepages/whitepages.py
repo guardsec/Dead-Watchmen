@@ -1,15 +1,12 @@
-import os
-
-
-
-class whitepages:
+class info:
     def __init__(self):
 
         FN = input("First Name: ")
         LN = input("Last Name: ")
         CSA = input("City/State/Area code: ")
 
-    def link():
-        thing2 = ("https://www.whitepages.com/name/" + FN + "-" + LN + "/Pickerington-OH?fs=1&l=Pickerington+OH&q=steve+tsardoulias")
+        print("https://www.whitepages.com/name/" + FN + "-" + LN + "/" + CSA + "?fs=1&l=" + CSA + "&q=" + FN + "+" + LN)
+
+
 
 

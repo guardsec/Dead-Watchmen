@@ -1,6 +1,12 @@
+import src.menu as menu
+import src.core as core
+import src.core.var as var
+from colorama import Fore, Style, Back
+from os import system as cmd
+from time import sleep
+import os
+import sys
+import colorama
 
-FN = input("First Name: ")
-LN = input("Last Name: ")
-CSA = input("City/State/Area code: ")
 
-print("https://www.whitepages.com/name/" + FN + "-" + LN + "/" + CSA + "?fs=1&l=" + CSA + "&q=" + FN + "+" + LN)
+menu.boot.load_animtion()
