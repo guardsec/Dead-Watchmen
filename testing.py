@@ -1,12 +1,9 @@
-import src.menu as menu
-import src.core as core
-import src.core.var as var
 from colorama import Fore, Style, Back
 from os import system as cmd
 from time import sleep
+import src.menu as menu
+import src.core as core
+import src.core.var as var
 import os
 import sys
 import colorama
-
-
-menu.boot.load_animtion()
