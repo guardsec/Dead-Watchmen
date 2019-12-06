@@ -5,9 +5,9 @@ import sys
 __authors__ = u'"Tibthink, Faded-Atlas"'
 __version__ = '0.1'
 
-class logo:
-    def logo():
-        print(Fore.RED + u"""
+
+def logo():
+    print(Fore.RED + u"""
 
 ▓█████▄ ▓█████ ▄▄▄      ▓█████▄     █     █░ ▄▄▄     ▄▄▄█████▓ ▄████▄   ██░ ██  ███▄ ▄███▓▓█████  ███▄    █ 
 ▒██▀ ██▌▓█   ▀▒████▄    ▒██▀ ██▌   ▓█░ █ ░█░▒████▄   ▓  ██▒ ▓▒▒██▀ ▀█  ▓██░ ██▒▓██▒▀█▀ ██▒▓█   ▀  ██ ▀█   █ 

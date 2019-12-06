@@ -24,11 +24,12 @@ if not os.path.isfile("src/agreement.txt"):
             filewrite.write("user accepted")
 
     else:
-       exit("Welp have a good day, \n come back when you want to play fair")
+       exit("\nwell have a good day, \ncome back when you want to play fair\n")
+       print(Fore.WHITE)
 print(Fore.WHITE)
-menu.boot.load_animtion()
+menu.boot()
 menu.logo.logo()
-menu.menu1.Mainmenu()
+menu.menu.Mainmenu()
 
         
 

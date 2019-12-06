@@ -2,11 +2,8 @@
 from colorama import Fore, Style, Back
 from os import system as cmd
 from time import sleep
-import os
-import sys
-import colorama
 from src.menu.logo import logo
-import src.core.whitepages as whitepages
+from src.core.whitepages import whitepages
 
 def Mainmenu():
     choice ='0'
@@ -22,7 +19,11 @@ def Mainmenu():
             print()
             exit(Fore.WHITE + u"thanks for stalking by")
         elif choice == "3":
-            print("Do Something 3")
+            TrAiN()
+            sleep(1)
+            cmd("clear")
+            logo()
+            Mainmenu()
         elif choice == "2":
             print("im working on it")
             #cmd("git clone --depth=1 https://github.com/TIBTHINK/Dead-Watchman.git")
@@ -30,6 +31,10 @@ def Mainmenu():
             whitepages.info()        
         else:
             print("I don't understand your choice.")
+            sleep(4)
             cmd("clear")
-            logo.logo()
+            logo()
             Mainmenu()
+
+def TrAiN():
+    cmd("sl")
