@@ -16,4 +16,10 @@ not all options in dead watchmen will work coss-platform \
 it is in the works to make it cross platform \
 (probally not gonna happen because im lazy)
 
-![https://paypal.me/tibthink](https://www.braintreepayments.com/images/features/paypal/paypal-button@2x.png)
+
+# Donate
+if you care spare a buck that can go a long way \
+\
+paypal:
+
+<img src="assets\picture\code.png">
