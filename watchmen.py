@@ -1,4 +1,4 @@
-#! /bin/python3
+
 import src.menu as menu
 import src.core as core
 import src.core.var as var
@@ -30,6 +30,3 @@ print(Fore.WHITE)
 menu.boot()
 menu.logo.logo()
 menu.menu.Mainmenu()
-
-        
-

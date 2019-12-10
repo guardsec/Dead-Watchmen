@@ -3,7 +3,7 @@ import os
 import sys
 
 __authors__ = u'"Tibthink, Faded-Atlas"'
-__version__ = '0.1'
+__version__ = '0.3'
 
 
 def logo():
@@ -24,3 +24,18 @@ Code name: bassoon
 Created by: {__authors__}
 Version: {__version__} 
             """.format(__authors__=__authors__, __version__=__version__))
+
+def toolsLogo():
+    print(Fore.RED + u"""
+    
+▄▄▄█████▓ ▒█████   ▒█████   ██▓      ██████ 
+▓  ██▒ ▓▒▒██▒  ██▒▒██▒  ██▒▓██▒    ▒██    ▒ 
+▒ ▓██░ ▒░▒██░  ██▒▒██░  ██▒▒██░    ░ ▓██▄   
+░ ▓██▓ ░ ▒██   ██░▒██   ██░▒██░      ▒   ██▒
+  ▒██▒ ░ ░ ████▓▒░░ ████▓▒░░██████▒▒██████▒▒
+  ▒ ░░   ░ ▒░▒░▒░ ░ ▒░▒░▒░ ░ ▒░▓  ░▒ ▒▓▒ ▒ ░
+    ░      ░ ▒ ▒░   ░ ▒ ▒░ ░ ░ ▒  ░░ ░▒  ░ ░
+  ░      ░ ░ ░ ▒  ░ ░ ░ ▒    ░ ░   ░  ░  ░  
+             ░ ░      ░ ░      ░  ░      ░  
+                                            
+""")
