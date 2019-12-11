@@ -24,10 +24,6 @@ def pyphisher():
          ░ ░                                                           
                                                   
         """)
-
-
-
-
         #Ask user input for url
     _url = input('Website to copy (ex http://google.com): ')
     #Ask user input for logs file name
