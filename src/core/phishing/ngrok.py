@@ -8,7 +8,4 @@ def ngrok():
 
     @app.route("/")
     def hello():
-        
-
-    if __name__ == '__main__':
-        app.run()
+        return print("hello")
