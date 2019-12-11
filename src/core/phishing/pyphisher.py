@@ -3,7 +3,7 @@ import os
 import sys, traceback
 import urllib.request, urllib.error, urllib.parse
 from colorama import Fore, Style, Back
-import ngrok
+from src.core.phishing.ngrok import ngrok
 
 
 
@@ -62,3 +62,5 @@ def pyphisher():
     html_file.write(final_source)
     html_file.close()
     print(Fore.RED + "")
+    
+    ngrok()
