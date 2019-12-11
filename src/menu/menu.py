@@ -47,15 +47,17 @@ def tools():
     Tchoice = '0'
     while Tchoice =='0':
         print(Fore.WHITE + u"""
-    1.Whitepages lookup
+    1.winfo
     2.Pyphisher
     99.go back
                 """)
         Tchoice = input("Please make a choice: ")
         if Tchoice == "1":
             whitepages.info()
+            Mainmenu()
         elif Tchoice == "2":
             pyphisher()
+            Mainmenu()
         elif Tchoice == "99":
             Mainmenu()
         else:
