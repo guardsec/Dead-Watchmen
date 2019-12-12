@@ -1,5 +1,23 @@
-*.pyc
-*.html
-*.php
-*.css
-*.txt
+# bite code
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# packages
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
