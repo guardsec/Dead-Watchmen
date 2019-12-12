@@ -8,6 +8,12 @@ from time import sleep
 import os
 import sys
 import colorama
+import platform
+
+sytem =platform.system():
+    if system == "Windows":
+        exit("sorry but Dead Watchmen cant run on Windows you boomer")
+
 
 if os.geteuid() != 0:
     exit(Fore.RED + u"please run me as root")
