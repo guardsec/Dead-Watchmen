@@ -2,7 +2,7 @@ from colorama import Fore, Style
 import os
 import sys
 
-__authors__ = u'"Tibthink, Faded-Atlas"'
+__authors__ = u'"TIBTHINK, Faded-Atlas"'
 __version__ = '0.3'
 
 

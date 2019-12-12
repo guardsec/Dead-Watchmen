@@ -8,4 +8,4 @@ def ngrok():
 
     @app.route("/")
     def hello():
-        return print("hello")
+        return 

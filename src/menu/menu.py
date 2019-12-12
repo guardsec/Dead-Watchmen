@@ -7,7 +7,9 @@ from src.core.whitepages import whitepages
 from src.core.phishing import pyphisher
 from src.core.toLazyToTypeOver.clear import clear
 
+
 def Mainmenu():
+    Exit()
     choice ='0'
     while choice =='0':
         print(Fore.WHITE + u"""
@@ -19,7 +21,7 @@ def Mainmenu():
         choice = input ("Please make a choice: ")
         if choice == "4":
             print()
-            exit(Fore.WHITE + u"thanks for stalking by")
+            exit(Fore.WHITE + u"Thanks for stalking by")
         elif choice == "3":
             TrAiN()
             sleep(1)
