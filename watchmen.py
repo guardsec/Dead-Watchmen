@@ -10,7 +10,7 @@ import sys
 import colorama
 import platform
 
-sytem =platform.system():
+system = platform.system():
     if system == "Windows":
         exit("sorry but Dead Watchmen cant run on Windows you boomer")
 
