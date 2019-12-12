@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/guardsec/Dead-Watchman.svg?branch=master)](https://travis-ci.com/guardsec/Dead-Watchman)
+
 # Dead-Watchman
 OSINT Program, makes stalking faster than ever
 
