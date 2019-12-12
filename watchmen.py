@@ -11,8 +11,8 @@ import colorama
 import platform
 
 system = platform.system()
-    if system == "Windows":
-        exit("sorry but Dead Watchmen cant run on Windows you boomer")
+if system == "Windows":
+    exit("sorry but Dead Watchmen cant run on Windows you boomer")
 
 
 if os.geteuid() != 0:
