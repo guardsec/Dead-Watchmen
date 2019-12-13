@@ -14,7 +14,7 @@ env:
 
 before_install:
 # Here we download miniconda and install the dependencies
-- pip3 install -r requirements.txt
+- sudo pip3 install -r requirements.txt
 
 script:
 - sudo python3 watchmen.py
