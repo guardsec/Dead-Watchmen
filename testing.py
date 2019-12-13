@@ -14,7 +14,7 @@ def ngrok():
 
     @app.route("/")
     def hello():
-        return open("index.html")
+        return open(str("index.html"))
 
     app.run()
 
