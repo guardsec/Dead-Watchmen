@@ -9,7 +9,7 @@ from src.core.toLazyToTypeOver.clear import clear
 
 
 def Mainmenu():
-    Exit()
+
     choice ='0'
     while choice =='0':
         print(Fore.WHITE + u"""
