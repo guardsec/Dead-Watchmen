@@ -17,4 +17,4 @@ before_install:
 -  pip3 install -r requirements.txt
 
 script:
-- sudo python3 watchmen.py
+-  python3 watchmen.py
