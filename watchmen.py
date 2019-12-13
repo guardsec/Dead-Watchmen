@@ -14,8 +14,8 @@ if system == "Windows":
     exit(Fore.RED + u"sorry but Dead Watchmen cant run on Windows you boomer")
     print(Fore.WHITE)
 
-if os.geteuid() != 0:
-    exit(Fore.RED + u"please run me as root")
+# if os.geteuid() != 0:
+#     exit(Fore.RED + u"please run me as root")
 
 if not os.path.isfile("src/agreement.txt"):
     cmd("clear")
