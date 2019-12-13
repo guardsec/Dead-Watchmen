@@ -31,6 +31,10 @@ def Mainmenu():
         elif choice == "2":
             print("im working on it")
             #cmd("git clone --depth=1 https://github.com/TIBTHINK/Dead-Watchman.git")
+            sleep(3)
+            clear()
+            logo()
+            Mainmenu()
         elif choice == "1":
             clear()
             toolsLogo()
@@ -49,17 +53,20 @@ def tools():
     Tchoice = '0'
     while Tchoice =='0':
         print(Fore.WHITE + u"""
-    1.winfo
+    1.Winfo
     2.Pyphisher
+    3.Pinfo
     99.go back
                 """)
         Tchoice = input("Please make a choice: ")
         if Tchoice == "1":
-            whitepages.info()
+            whitepages.winfo()
             Mainmenu()
         elif Tchoice == "2":
             pyphisher()
             Mainmenu()
+        elif Tchoice == "3":
+            whitepages.pinfo()
         elif Tchoice == "99":
             Mainmenu()
         else:

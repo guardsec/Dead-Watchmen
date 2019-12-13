@@ -1,7 +1,6 @@
 import src.menu as menu
 import src.core as core
-import src.core.var as var
-from src.core.phishing.ngrok import ngrok
+import src.core.var as vars
 from colorama import Fore, Style, Back
 from os import system as cmd
 from time import sleep
