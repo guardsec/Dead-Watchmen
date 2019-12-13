@@ -4,4 +4,4 @@ python:
 install:
   pip3 install -r requirements.txt
 script: 
-  python3 watchmen.py
+  sudo python3 watchmen.py
