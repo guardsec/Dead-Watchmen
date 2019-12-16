@@ -12,7 +12,7 @@ import platform
 try:
     system = platform.system()
     if system == "Windows":
-        exit(Fore.RED + u"sorry but Dead Watchmen cant run on Windows you boomer" + Fore.WHITE)
+        exit(Fore.RED + u"sorry but Dead Watchmen cant run on Windows, you pretend hacker" + Fore.WHITE)
 
     if os.geteuid() != 0:
         exit(Fore.RED + u"please run me as root" + Fore.WHITE)
