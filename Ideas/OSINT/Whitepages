@@ -16,3 +16,5 @@
 5. Raspberry Pi integration is broken. This will be fixed in future updates. 
 6. We are working on getting a cnam api for reverse phone lookup
 "" IN regards to 4, cant we just impletment the command "chmod +x" to the actual script?
+
+
