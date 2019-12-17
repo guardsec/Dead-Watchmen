@@ -13,10 +13,12 @@ sudo python3 watchmen.py
 
 ## Things That Need To Work Out
 
-1. have pyphiser working with automatic port forwarding \
-2. have the whitepages modules grab the info and put into a file
-3. get more members to work on this
-4. have this program install to the computer and runable from typing watchmen
+1. Have pyphiser working with automatic port forwarding \
+2. Have the whitepages modules grab the info and put into a file
+3. Get more members to work on this
+4. Have this program install to the computer and runable from typing watchmen
+5. Raspberry Pi integration is broken. This will be fixed in future updates. 
+6. We are working on getting a cnam api for reverse phone lookup
 
 # disclaimer
 
