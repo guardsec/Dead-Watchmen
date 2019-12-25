@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import src.menu as menu
 import src.core as core
 import src.core.var as vars
