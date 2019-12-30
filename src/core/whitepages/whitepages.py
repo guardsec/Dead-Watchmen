@@ -1,5 +1,5 @@
 from colorama import Fore, Style, Back
-from src.core.toLazyToTypeOver.clear import clear
+from ...core.ToLazyToTypeOver import clear
 import os
 
 

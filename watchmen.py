@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 import src.menu as menu
 import src.core as core
 import src.core.var as vars
@@ -13,7 +13,7 @@ import platform
 try:
     system = platform.system()
     if system == "Windows":
-        exit(Fore.RED + u"sorry but Dead Watchmen cant run on Windows, you pretend hacker" + Fore.WHITE)
+        exit(Fore.RED + u"Sorry but Dead Watchmen cant run on Windows, you pretend hacker" + Fore.WHITE)
 
     if os.geteuid() != 0:
         exit(Fore.RED + u"please run me as root" + Fore.WHITE)

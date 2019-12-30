@@ -5,7 +5,7 @@ from time import sleep
 from src.menu.logo import logo, toolsLogo
 from src.core.whitepages import whitepages
 from src.core.phishing import pyphisher
-from src.core.toLazyToTypeOver.clear import clear
+from src.core.toLazyToTypeOver import clear
 
 
 def Mainmenu():
@@ -64,6 +64,9 @@ def tools():
             Mainmenu()
         elif Tchoice == "2":
             pyphisher()
+            sleep(4)
+            clear()
+            toolsLogo() 
             Mainmenu()
         elif Tchoice == "3":
             whitepages.pinfo()
