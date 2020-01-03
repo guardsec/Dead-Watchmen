@@ -4,13 +4,12 @@
 OSINT Program, makes stalking faster than ever
 
 
-## Installing Deppendecies
+## Installing
 
 ```
+git clone https://github.com/guardsec/Dead-Watchmen.git
+cd Dead-Watchmen
 sudo python3 install.py
-```
-### Then run it with this command
-```
 sudo python3 watchmen.py
 ```
 
@@ -31,10 +30,11 @@ it is in the works to make it cross platform \
 (probally not gonna happen because im lazy)
 
 ## Tested on and worked on
-ubuntu 19.04 server \
-ubuntu 19.04 desktop \
-raspbain 10 lite on rapsberry pi 4 \
-raspbain 10 lite on raspberry pi zero w 
+Ubuntu 19.04 server \
+Ubuntu 19.04 desktop \
+Raspbain 10 lite on rapsberry pi 4 \
+Raspbain 10 lite on raspberry pi zero w \
+Deepin 15
 
 
 
