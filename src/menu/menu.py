@@ -5,7 +5,7 @@ from time import sleep
 from src.menu.logo import logo, toolsLogo
 from src.core.whitepages import whitepages
 from src.core.phishing import pyphisher
-from src.core.toLazyToTypeOver import clear
+from src.core.ToLazyToTypeOver import clear
 
 
 def Mainmenu():
@@ -23,7 +23,8 @@ def Mainmenu():
             print()
             exit(Fore.WHITE + u"Thanks for stalking by")
         elif choice == "3":
-            TrAiN()
+            print("doesnt work really sorry train dude")
+            # TrAiN()
             sleep(1)
             clear()
             logo()
