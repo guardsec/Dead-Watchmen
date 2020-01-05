@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#! /usr/bin/python3
 import src.core.ToLazyToTypeOver.clear
 import src.core as core
 import src.core.var as vars
