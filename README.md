@@ -34,7 +34,9 @@ Ubuntu 19.04 server \
 Ubuntu 19.04 desktop \
 Raspbain 10 lite on rapsberry pi 4 \
 Raspbain 10 lite on raspberry pi zero w \
-Deepin 15
+Deepin 15 \
+google cloud shell \
+kali linux sub system windows 10
 
 
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import src.core.ToLazyToTypeOver.clear as clear
+import src.core.ToLazyToTypeOver.clear
 import src.core as core
 import src.core.var as vars
 import src.menu as menu
@@ -31,7 +31,7 @@ try:
                 filewrite.write("user accepted")
             print("good choice")
             sleep(3)
-            clear()
+            src.core.ToLazyToTypeOver.clear()
             
 
 

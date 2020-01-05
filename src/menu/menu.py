@@ -20,8 +20,7 @@ def Mainmenu():
                 """)
         choice = input ("Please make a choice: ")
         if choice == "4":
-            print()
-            exit(Fore.WHITE + u"Thanks for stalking by")
+            print(Fore.RED + "\nThanks for stalking by" + Fore.WHITE)
         elif choice == "3":
             print("doesnt work really sorry train dude")
             # TrAiN()
