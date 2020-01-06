@@ -1,7 +1,8 @@
-#!/usr/bin/env python3
-import src.menu as menu
+#! /usr/bin/python3
+import src.core.ToLazyToTypeOver.clear
 import src.core as core
 import src.core.var as vars
+import src.menu as menu
 from colorama import Fore, Style, Back
 from os import system as cmd
 from time import sleep
@@ -28,6 +29,11 @@ try:
         if choice[0].lower() == "y":
             with open("src/agreement.txt", "w") as filewrite:
                 filewrite.write("user accepted")
+            print("good choice")
+            sleep(3)
+            src.core.ToLazyToTypeOver.clear()
+            
+
 
         else:
             exit("\nwell have a good day, \ncome back when you want to play fair\n" + Fore.WHITE)
