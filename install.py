@@ -1,7 +1,6 @@
 #! /usr/bin/python3
 from os import system as cmd
 from time import sleep
-from colorama import Fore, Style
 import platform
 import os
 
