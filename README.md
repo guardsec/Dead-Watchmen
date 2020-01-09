@@ -2,13 +2,22 @@
 OSINT Program, makes stalking faster than ever
 
 
-## Installing
+## Installing on a normal computer
 
 ```
 git clone https://github.com/guardsec/Dead-Watchmen.git
 cd Dead-Watchmen
 sudo python3 install.py
 sudo python3 watchmen.py
+```
+
+## Installing on Termux
+
+```
+git clone https://github.com/guardsec/Dead-Watchmen.git
+cd Dead-Watchmen
+python3 install.py
+python3 watchmen.py
 ```
 
 ## Things That Need To Work Out
