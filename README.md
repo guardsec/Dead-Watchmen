@@ -17,8 +17,9 @@ sudo python3 watchmen.py
 ```
 git clone https://github.com/guardsec/Dead-Watchmen.git
 cd Dead-Watchmen
-python3 install.py
-python3 watchmen.py
+chmod +x install.sh
+sudo ./install.sh
+sudo python3 watchmen.py
 ```
 
 ## Things That Need To Work Out
@@ -33,11 +34,12 @@ python3 watchmen.py
 # Disclaimer
 
 This program was writen and tested in linux, \
-not all options in dead watchmen will work coss-platform \
-it is in the works to make it cross platform \
-(probally not gonna happen because im lazy)
+not all options in dead watchmen will work since it is still in devolpment \
+if you have any suggestions for tools or solutions please share
+-GuardSec Team
 
-## Tested on
+
+## Tested on (Doesnt means worked)
 Ubuntu 19.04 server \
 Ubuntu 19.04 desktop \
 Raspbain 10 lite on rapsberry pi 4 \
