@@ -36,14 +36,15 @@ not all options in dead watchmen will work coss-platform \
 it is in the works to make it cross platform \
 (probally not gonna happen because im lazy)
 
-## Tested on and worked on
+## Tested on
 Ubuntu 19.04 server \
 Ubuntu 19.04 desktop \
 Raspbain 10 lite on rapsberry pi 4 \
 Raspbain 10 lite on raspberry pi zero w \
 Deepin 15 \
 google cloud shell \
-kali linux sub system windows 10
+kali linux sub system windows 10 \
+Termux
 
 
 
