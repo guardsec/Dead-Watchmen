@@ -7,7 +7,8 @@ OSINT Program, makes stalking faster than ever
 ```
 git clone https://github.com/guardsec/Dead-Watchmen.git
 cd Dead-Watchmen
-sudo python3 install.py
+chmod +x install.sh
+sudo ./install.sh
 sudo python3 watchmen.py
 ```
 
