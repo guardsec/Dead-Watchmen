@@ -35,7 +35,7 @@ sudo python3 watchmen.py
 
 This program was writen and tested in linux, \
 not all options in dead watchmen will work since it is still in devolpment \
-if you have any suggestions for tools or solutions please share
+if you have any suggestions for tools or solutions please share \
 -GuardSec Team
 
 
