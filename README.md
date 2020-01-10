@@ -18,8 +18,8 @@ sudo python3 watchmen.py
 git clone https://github.com/guardsec/Dead-Watchmen.git
 cd Dead-Watchmen
 chmod +x install.sh
-sudo ./install.sh
-sudo python3 watchmen.py
+./install.sh
+python3 watchmen.py
 ```
 
 ## Things That Need To Work Out
