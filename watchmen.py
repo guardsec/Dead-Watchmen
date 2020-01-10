@@ -16,8 +16,8 @@ try:
     if system == "Windows":
         exit(Fore.RED + u"Sorry but Dead Watchmen cant run on Windows, you pretend hacker" + Fore.WHITE)
 
-    if os.geteuid() != 0:
-        exit(Fore.RED + u"please run me as root" + Fore.WHITE)
+#    if os.geteuid() != 0:
+#        exit(Fore.RED + u"please run me as root" + Fore.WHITE)
 
     if not os.path.isfile("src/agreement.txt"):
         cmd("clear")
