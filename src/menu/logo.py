@@ -3,7 +3,7 @@ import os
 import sys
 
 __authors__ = u'"TIBTHINK, Faded-Atlas"'
-__version__ = '0.3'
+__version__ = '1.36'
 
 
 def logo():
