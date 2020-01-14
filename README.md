@@ -28,7 +28,7 @@ python3 watchmen.py
 2. Have the whitepages modules grab the info and put into a file
 3. Get more members to work on this
 4. Have this program install to the computer and runable from typing watchmen
-5. Raspberry Pi integration is broken. This will be fixed in future updates. 
+5. Raspberry Pi 3 integration is broken. This will be fixed in future updates. 
 6. We are working on getting a cnam api for reverse phone lookup
 
 # Disclaimer
