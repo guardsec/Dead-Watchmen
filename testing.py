@@ -10,4 +10,4 @@ import colorama
 import platform
 import src.core.phishing.ngrok as ngrok
 
-ngrok
+core.phishing.pyphisher()

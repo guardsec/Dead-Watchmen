@@ -1,15 +1,14 @@
 import os
 import sys, traceback
 import urllib.request, urllib.error, urllib.parse
-from src.core.ToLazyToTypeOver
-
-clear()
+from src.core.ToLazyToTypeOver import clear
+from colorama import Fore, Style, Back
 
 def pyphisher():
+    clear()
 
-    #Print name and description
-    print('''
-    \033[1;31m
+
+    print(Fore.RED + """
     $$$$$   $$   $$        $$$$$   $$ $$$$$$ $$  $$ $$$$$$$ $$$$$
     $$   $$  $$ $$         $$   $$ $$ $$     $$  $$ $$      $$   $$
     $$   $$   $$           $$   $$ $$ $$     $$  $$ $$      $$   $$
@@ -17,7 +16,7 @@ def pyphisher():
     $$        $$           $$      $$     $$ $$  $$ $$      $$  $$
     $$        $$           $$      $$     $$ $$  $$ $$      $$   $$
     $$        $$           $$      $$ $$$$$$ $$  $$ $$$$$$$ $$   $$
-    ''')
+    """ + Fore.WHITE)
 
 
 
