@@ -29,7 +29,9 @@ python3 watchmen.py
 3. Get more members to work on this
 4. Have this program install to the computer and runable from typing watchmen \
 <s>5. Raspberry Pi 3 integration is broken. This will be fixed in future updates.</s>
-6. We are working on getting a cnam api for reverse phone lookup
+6. We are working on getting a cnam api for reverse phone lookup \
+7. put this in for phishing \
+https://github.com/trustedsec/social-engineer-toolkit/blob/09b56b105f631aed936f228be945ad09362e4c51/src/webattack/harvester/harvester.py 
 
 # Disclaimer
 
@@ -57,3 +59,5 @@ if you care spare a buck that can go a long way \
 paypal:
 
 <img src="assets\picture\code.png">
+
+
