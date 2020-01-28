@@ -20,7 +20,6 @@ def logo():
 ░       ░  ░     ░  ░   ░           ░          ░  ░        ░ ░       ░  ░  ░       ░      ░  ░         ░ 
 ░                       ░                                    ░                                             
             
-Code name: bassoon
 Created by: {__authors__}
 Version: {__version__} 
             """.format(__authors__=__authors__, __version__=__version__))

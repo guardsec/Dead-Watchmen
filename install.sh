@@ -34,7 +34,7 @@ if [ "$PREFIX" = "/data/data/com.termux/files/usr" ]; then
     BASH_PATH="$PREFIX/bin/bash"
     TERMUX=true
 
-    pkg install -y sl git python3-pip python3 python-pip
+    pkg install -y sl git python3-pip python3 
     pip3 install -r requirements.txt
 else
   if [[ $EUID -ne 0 ]]; then
@@ -46,7 +46,7 @@ else
     BASH_PATH="/bin/bash"
     TERMUX=false
 
-    sudo apt install -y sl python3-pip python3 python-pip
-    sudo pip3 install -r requirements.txt
+    apt install -y sl python3-pip python3
+    pip3 install -r requirements.txt
 
 fi

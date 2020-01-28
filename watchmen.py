@@ -25,7 +25,7 @@ try:
         vars.text.aggrement()
         
         choice = input("\nDo you agree to the terms of service [y/n]: ")
-        choice += " "  # b/c method below
+        choice += " "
         if choice[0].lower() == "y":
             with open("src/agreement.txt", "w") as filewrite:
                 filewrite.write("user accepted")
@@ -36,7 +36,7 @@ try:
 
 
         else:
-            exit("\nwell have a good day, \ncome back when you want to play fair\n" + Fore.WHITE)
+            exit("\nWell have a good day, \nCome back when you want to play fair\n" + Fore.WHITE)
     menu.boot()
     menu.logo.logo()
     menu.menu.Mainmenu()
