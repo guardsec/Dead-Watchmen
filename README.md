@@ -44,12 +44,15 @@ if you have any suggestions for tools or solutions please share \
 ## Tested on (Doesnt means worked)
 Ubuntu 19.04 server \
 Ubuntu 19.04 desktop \
+Ubuntu 18.10 Server \
+Ubuntu 18.10 Desktop \
+Linux Mint 19.2 \
 Raspbain 10 lite on rapsberry pi 4 \
 Raspbain 10 lite on raspberry pi zero w \
 Deepin 15 \
 google cloud shell \
 kali linux sub system windows 10 \
-Termux
+Termux 
 
 
 
